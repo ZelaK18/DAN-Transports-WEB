@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#478ac9">
+	<meta property="og:title" content="DAN-Transports SA">
+	<meta property="og:description" content="DAN-Transports est une entreprise de déménagement et de transport">
+	<meta property="og:type" content="business.business">
+	<link rel="icon" type="image/x-icon" href="images/logos/dan_transports.ico">
+	<title>DAN-Transports - Emploi</title>
+	<link rel="stylesheet" href="css/main.css" media="screen">
+	<link rel="stylesheet" href="css/emploi.css" media="screen">
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Organization",
+			"name": "DAN-Transports SA",
+			"description": "Une entreprise qui offre des services de transport et de déménagement pas cher",
+			"url": "https://www.dan-transports.ch",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "Rte de Fribourg 26",
+				"addressLocality": "Marly",
+				"postalCode": "1723"
+			},
+			"contactPoint": {
+				"@type": "ContactPoint",
+				"telephone": "+41 26 436 27 33",
+				"contactType": "Customer service"
+			}
+		}
+	</script>
+	<script src="js/main.js" defer></script>
+</head>
+<body>
+	<div class="header">
+		<img src="images/logos/dan_transports.png" alt="Logo DAN-Transports SA">
+		<a href="#" id="openBtn">
+			<span class="burger-icon">
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+		</a>
+		<div id="mySidenav" class="sidenav">
+			<a id="closeBtn" href="#" class="close">×</a>
+			<ul>
+				<a href="index.html">DAN-TRANSPORTS</a>
+				<a href="index.html#Index-Vehicules">TRANSPORT</a>
+				<a href="levage.html">LEVAGE</a>
+				<a href="demenagement_gardemeuble.html">DÉMÉNAGEMENT + STOCKAGE</a>
+				<a href="location.html">LOCATION</a>
+				<a class="active" href="emploi.html">EMPLOI</a>
+			</ul>
+		</div>
+		<div id="navbar">
+			<a href="index.html">DAN-TRANSPORTS</a>
+			<a href="index.html#Index-Vehicules">TRANSPORT</a>
+			<a href="levage.html">LEVAGE</a>
+			<a href="demenagement_gardemeuble.html">DÉMÉNAGEMENT + STOCKAGE</a>
+			<a href="location.html">LOCATION</a>
+			<a class="active" href="emploi.html">EMPLOI</a>
+		</div>
+	</div>
+	<section>
+		<div class="text-container"><h1>POSTE À POURVOIR / CANDIDATURE SPONTANÉE</h1>
+			<p class="line-break-text">
+				<span>Nous vous remercions de votre intérêt pour les opportunités d'emploi chez <b>DAN-Transports SA</b>. Actuellement, nous n'avons pas de postes vacants.</span>
+				<span>Cependant, nous sommes toujours à la recherche de talents exceptionnels pour rejoindre notre équipe.</span>
+				<span>Si vous êtes passionné par le transport et le déménagement, et que vous pensez pouvoir contribuer positivement à notre entreprise, n'hésitez pas à nous envoyer votre candidature spontanée à l'adresse suivante : <b>info@dan-transports.ch</b>.</span>
+				<span>Nous examinerons attentivement toutes les candidatures reçues et vous contacterons si une opportunité correspondant à votre profil se présente.</span>
+				<span> Merci encore pour votre intérêt et votre compréhension.</span>
+			</p>
+		</div>
+	</section>
+	<footer>
+		<div class="rectangle-footer">
+			<div class="text-container-footer">
+				<span class="line-break-footer">
+					<span class="strong-text">Contactez-nous pour un devis gratuit :</span>
+					<span>+41 26 436 27 33</span>
+					<span>info@dan-transports.ch</span><br>
+					<span class="strong-text">DAN-Transports SA</span>
+					<span>Rte de Fribourg 26</span>
+					<span>1723 Marly</span>
+				</span>
+				<span class="line-break-footer">
+					<span class="strong-text">Heures d'ouverture du bureau :</span>
+					<span>Lundi : 07h00 à 17h30</span>
+					<span>Mardi : 07h00 à 17h30</span>
+					<span>Mercredi : 07h00 à 17h30</span>
+					<span>Jeudi : 07h00 à 17h30</span>
+					<span>Vendredi : 07h00 à 17h30</span>
+					<span>Samedi : Fermé</span>
+					<span>Dimanche : Fermé</span>
+				</span>
+			</div>
+			<div class="text-container-footer">
+				<span class="text-footer-1">
+					<p id="copyright"></p>
+				</span>
+			</div>
+		</div>
+		<script>
+			let today = new Date();
+			let year = today.getFullYear();
+			let copyrightText = "© Copyright " + year + " - DAN-Transports SA, Déménagements & Transports - Tous droits réservés";
+			document.getElementById('copyright').innerHTML = copyrightText;
+		</script>
+	</footer>
+</body>
+</html>
